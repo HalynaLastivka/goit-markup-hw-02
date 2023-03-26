@@ -1,0 +1,90 @@
+:root {
+    --primary-text-color: #434455;
+    --akcent-color: #2E2F42;
+    --background-main:#FFFFFF;
+    --background-button:#4D5AE5;
+    --color-text-footer:#F4F4FD;
+}
+
+body {
+  color:var(--primary-text-color);
+  background-color:var(--background-main);
+}
+.logo {
+      text-transform: uppercase;
+      color: var(--akcent-color);
+}
+.accent {
+    color: var(--background-button);
+}
+ul {
+    list-style: none;
+}
+
+.link {
+     text-decoration: none;
+}
+
+.title {
+    color: var(--akcent-color);
+
+}
+.site-nav {
+    color:var(--title-text-color);
+     text-decoration: none;
+}
+.site-contact {
+    color:var(--primary-text-color);
+}
+ 
+/*hero*/
+.hero {
+    background-color: var(--akcent-color);
+}
+
+.hero-title {
+    color: var(--background-main);
+}
+
+.hero-btn {
+    color: var(--background-main);
+    background-color: var(--background-button);
+}
+/*feature*/
+.feature-title{
+    color: var(--akcent-color);
+}
+
+
+/*our team*/
+.team {
+    background-color: var(--color-text-footer);
+}
+
+.card-title{
+    color: var(--akcent-color);
+}
+
+/*footer*/
+.footer-logo {
+      text-transform: uppercase;
+      color: var(--background-main)
+}
+.footer {
+    background-color: var(--akcent-color);
+
+}
+.footer-text {
+    color: var(--color-text-footer);
+}
+
+
+/*portfolio*/
+.project-title {
+    color: var(--akcent-color);
+}
+
+.filter-btn {
+    background-color: var(--color-text-footer);
+    color: var(--background-button);
+}
