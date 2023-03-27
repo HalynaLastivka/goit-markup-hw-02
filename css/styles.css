@@ -70,11 +70,15 @@ body {
     color: var(--hover-focus);
 }
 
-.item-contact {
+.contact .item-contact {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.5;
     cursor: none;
+    /* font-style: normal; */
+}
+
+.contact {
     font-style: normal;
 }
 
@@ -206,6 +210,6 @@ body {
 
 .filter-btn:hover,
 .filter-btn:focus {
-    background-color: var(--background-button);
+    background-color: var(--hover-focus);
     color: var(--background-main);
 }
