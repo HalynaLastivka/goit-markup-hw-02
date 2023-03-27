@@ -4,21 +4,22 @@
     --background-main: #FFFFFF;
     --background-button: #4D5AE5;
     --color-text-footer: #F4F4FD;
+    --hover-focus: #404bbf;
 }
 
 body {
     color: var(--primary-text-color);
     background-color: var(--background-main);
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.logo {
+.logo-studio {
     color: var(--akcent-color);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -26,9 +27,9 @@ body {
     text-transform: uppercase;
 }
 
-.accent {
+.logo {
     color: var(--background-button);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -36,8 +37,9 @@ body {
     text-transform: uppercase;
 }
 
-ul {
+.list {
     list-style: none;
+
 }
 
 .link {
@@ -54,22 +56,38 @@ ul {
 
 }
 
-.site-nav {
-    color: var(--title-text-color);
+
+
+.item-studio {
+    color: var(--akcent-color);
     list-style: none;
     text-decoration: none;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
-.site-contact {
+
+.item-studio:hover,
+.item-studio:focus {
+    color: var(--hover-focus);
+
+}
+
+.item-contact {
     color: var(--primary-text-color);
     list-style: none;
     font-size: 16px;
-    line-height: 1.6;
+    line-height: 1.5;
     cursor: none;
     text-decoration: underline;
+}
+
+.item-contact:hover,
+.item-contact:focus {
+    color: var(--hover-focus);
+
 }
 
 /*hero*/
@@ -82,20 +100,31 @@ ul {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
 .hero-btn {
     color: var(--background-main);
     background-color: var(--background-button);
+    font-family: Roboto, sans-serif;
     font-weight: 500;
-    display: flex;
+    font-size: 16px;
+    line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
     cursor: pointer;
 }
 
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--hover-focus);
+}
+
 /*feature*/
+
+
 .feature-title {
     color: var(--akcent-color);
     font-weight: 500;
@@ -103,14 +132,9 @@ ul {
     line-height: 1.2;
 }
 
-.feature-list {
-    list-style: none;
-}
+
 
 /*our work*/
-.work-list {
-    list-style: none;
-}
 
 
 /*our team*/
@@ -118,15 +142,14 @@ ul {
     background-color: var(--color-text-footer);
 }
 
-.team-list {
-    list-style: none;
-}
+
 
 .card-title {
     color: var(--akcent-color);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
 }
 
@@ -137,7 +160,7 @@ ul {
 /*footer*/
 .footer-logo {
     color: var(--background-main);
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
